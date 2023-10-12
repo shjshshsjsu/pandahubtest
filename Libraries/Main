@@ -141,8 +141,8 @@ function library:Window(name)
     local Window = Instance.new("Frame")
     Minimise.Name = "Minimise"
     Minimise.Parent = Header
-    Minimise.BackgroundColor3 = Color3.fromRGB(31, 121, 239)
-    Minimise.BorderColor3 = Color3.fromRGB(31, 121, 239)
+    Minimise.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    Minimise.BorderColor3 = Color3.fromRGB(255, 255, 255)
     Minimise.Position = UDim2.new(0, 185, 0, 2)
     Minimise.Size = UDim2.new(0, 22, 0, 22)
     Minimise.ZIndex = 7 + zindex
