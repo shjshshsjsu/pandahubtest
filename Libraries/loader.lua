@@ -3,6 +3,6 @@ local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/shjsh
 local window = library:Window("Test")
 
 window:Slider("Speed",0,100,20, function(value)
-		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = (value)
+		
    print(value)
 end)
