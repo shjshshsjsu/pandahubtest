@@ -2,6 +2,6 @@ local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Panda
 
 local window = library:Window("Test")
 
-window:Button("Button name", function()
+window:Button("Button", function()
    print("pressed button")
 end)
