@@ -2,6 +2,10 @@ local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/shjsh
 
 local window = library:Window("Test")
 
+window:Toggle("Example toggle", true, function(bool)
+    print(bool) 
+end)
+
 window:Button("Button", function()
    print("pressed button")
 end)
