@@ -8,3 +8,13 @@ window:Slider("Speed",0,100,20, function(value)
 		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = value
 	end
 end)
+
+window:Box("Walkspeed", function(text, focuslost)
+   if focuslost then
+   print(text)
+   end
+end)
+
+window:Toggle("Example toggle", true, function(bool)
+    print(bool) -- bool is true or false depending on the state of the toggle
+end)
