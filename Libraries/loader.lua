@@ -15,6 +15,4 @@ window:Box("Walkspeed", function(text, focuslost)
    end
 end)
 
-window:Toggle("Example toggle", true, function(bool)
-    print(bool) -- bool is true or false depending on the state of the toggle
-end)
+
